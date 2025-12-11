@@ -221,7 +221,7 @@ def download_image_via_context(context, img_url: str, dest: Path) -> bool:
     return True
 
 
-def go_to_next_page(page, seen_srcs: set, max_attempts: int = 2, wait_ms: int = 2000) -> bool:
+def go_to_next_page(page, seen_srcs: set, max_attempts: int = 2, wait_ms: int = 4000) -> bool:
     """
     Try to move to the next page:
     - Click next-page button or press Right arrow.

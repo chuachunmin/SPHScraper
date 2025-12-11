@@ -43,8 +43,8 @@ NLB_USERNAME = "username"
 NLB_PASSWORD = r"password"  # use r"..." if you have backslashes or \+ in password
 
 # Which paper to open (thumbnail image xpath on the main SPH page)
-ST_XPATH: "/html/body/div[1]/div/div[1]/div[3]/div[1]/div/div/a/img"
-BT_XPATH: "/html/body/div[1]/div/div[1]/div[3]/div[2]/div/div/a/img"
+ST_XPATH = "/html/body/div[1]/div/div[1]/div[3]/div[1]/div/div/a/img"
+BT_XPATH = "/html/body/div[1]/div/div[1]/div[3]/div[2]/div/div/a/img"
 
 PAPER_XPATH = ST_XPATH
 

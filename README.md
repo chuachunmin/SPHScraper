@@ -158,24 +158,4 @@ Uses Pillow to assemble all pages, preserving order, resolution, and color.
 * Requires an active NLB account with SPH access
 * Must be run manually unless scheduled using `launchd` or cron
 * Browser must remain visible (headful mode required)
-* Heavy newspapers (40–60 pages) may take ~30–60s to download
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome!
-You may also request features like:
-
-* Downloading multiple newspapers in one run
-* Auto OCR
-* Auto-emailing the PDF
-* Automatic daily scheduling
-* Multi-edition support (e.g., ST Home, ST Sport)
-
----
-
-## 📜 License
-
-MIT License.
-Feel free to use, modify, and distribute.
+* Heavy newspapers (40–60 pages) may take ~10–15m to download

@@ -1,6 +1,6 @@
-# 📰 NewsScraper — Automated SPH Newspaper Downloader (NLB eResources)
+# 📰 SPHScraper — Automated SPH Newspaper Downloader (NLB eResources)
 
-NewsScraper is a fully automated **Playwright-based scraper** that logs into Singapore’s National Library Board (NLB) eResources portal, opens the SPH Newspaper viewer, downloads **every high-resolution page**, and compiles them into a single PDF.
+SPHScraper is a fully automated **Playwright-based scraper** that logs into Singapore’s National Library Board (NLB) eResources portal, opens the SPH Newspaper viewer, downloads **every high-resolution page**, and compiles them into a single PDF.
 
 ✔ Supports **The Straits Times, Business Times, Zaobao, Berita Harian**, etc.
 ✔ Automatically downloads **all pages** (no need to specify page count)
@@ -32,7 +32,7 @@ NewsScraper is a fully automated **Playwright-based scraper** that logs into Sin
 ## 📁 Project Structure
 
 ```
-NewsScraper/
+SPHScraper/
 │
 ├── main.py          # The main scraper script
 ├── venv/            # Your Python virtual environment
